@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+.main-container {
+    width: 1440px;
+    height: 4100px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .banner-image-container {
+    width: 650px;
+    height: 58px;
+    aspect-ratio: 1/1;
+
+}
+
+section .container {
+    padding: 40px;
+}
+.logo-image-container {
+    width: 163px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.let-people-know .image-container {
+    width: 456px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.connect .image-container {
+    width: 316px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .right-part-header {
+    display: flex;
+    gap: 10px;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .container .column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.banner .container .column h2 {
+
+    color: #2977C9;
+    font-size: 35px
+}
+
+.banner .container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+
+}
+
+input {
+    width: 414px;
+    height: 40px;
+    padding: 20px;
+}
+
+.banner .container form .position-absolute {
+    position: absolute;
+    right: 20px;
+    top: 10px
+}
+
+.forgot-password {
+    opacity: 0.5;
+}
+
+.banner .container form .sign-in {
+    background-color: #0A66C2;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: none
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.let-people-know p {
+    max-width: 568px;
+    align-items: center;
+}
+
+.let-people-know .container {
+    align-items: center;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px
+}
+
+.let-people-know {
+    padding-top: 120px;
+}
